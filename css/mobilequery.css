@@ -1,0 +1,220 @@
+@media screen and (max-width: 768px){
+
+.mirusam{
+font-size: 2.5em;
+letter-spacing:0.5em;}
+
+/* top css */
+#header{
+    
+    min-height:calc(100vh - 25px);
+}
+
+.showcase-top{
+    position: absolute;
+    top:10px;
+    left:0;
+    padding:2px;
+}
+.showcase-top p{
+    font-size:0.7em;
+    font-family: 'sans-sarif';
+}
+.ggu-logo{
+    width:18%;
+    object-fit: cover;
+}
+
+.register{
+    position: absolute;
+    top:3rem;
+    right:5px;
+}
+   
+.mirusam-box{
+    width: 200px;
+}
+.mirusam-box img{
+ width:180px;
+}
+.mirusam-box h1{
+    font-size:1.5rem;
+    color:white;
+    margin-top:0.5px;
+
+}
+.nav-bar{
+    opacity:1;
+}
+.container h1{
+    padding-top:2.9rem;
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+.container p{
+    /* margin-top: rem; */
+    font-size:0.8rem;
+    /* word-spacing: 0.2rem; */
+    font-family: 'sans-sarif'
+}
+.con2 .galary{
+    padding-top:20px;
+    display: grid;
+    /* grid-gap: 20px; */
+  
+   
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.contact .footer {
+    height: 25px;
+    margin-top:1rem;
+   
+}
+.contact .footer p {
+   
+    padding: 8px;
+    font-size: 15px;
+    font-weight: lighter;
+    word-spacing: 0;
+  
+}
+.contact .footer .back-to-top{
+    display:none;
+}
+
+.social .social-button a{
+    padding: 0 1.5rem;
+}
+
+
+/* team page css */
+
+#header-h1{
+    width:100%;
+  
+}
+
+#mirusam{
+    margin-top:2.75rem;
+}
+
+.con1 .r{
+    margin-top:2rem;
+    margin-bottom: 5rem;
+   
+}
+.text h2{
+    
+    margin-top:0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+   font-size:2em;
+}
+
+.text img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+
+
+.mirusam-con {
+    margin-top: 3.5rem;
+    /* width: 100%; */
+    height: 60vh;
+    /* background: blueviolet; */
+    /* opacity: 1; */
+  }
+.main {
+    /* display: none; */
+    margin-top: 0;
+  }
+  
+#mirusam{
+    margin-top:0;
+  
+}
+}
+    
+@media screen and (max-width: 500px){
+.mirusam{
+ font-size:1.4em;
+letter-spacing: 0.3em;
+ }
+
+.mirusam .fonts:nth-child(9)
+{
+    animation-delay: 3.75s;
+    color:#26de81;
+}
+.mirusam .fonts:nth-child(10)
+{
+    animation-delay: 3.85s;
+    color:#26de81;
+}
+.mirusam .fonts:nth-child(11)
+{
+    animation-delay: 3.9s;
+    color:#a55eea;
+}
+.mirusam .fonts:nth-child(12){
+    animation-delay: 4s;
+    color:#a55eea;
+}
+.con2 .galary{
+    padding-top:20px;
+    display: grid;
+    /* grid-gap: 20px; */
+  
+   
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.contact .footer p {
+   
+    padding: 8px;
+    font-size: 15px;
+    font-weight: lighter;
+    word-spacing: 0;
+  
+}
+.contact .footer .back-to-top{
+    display:none;
+}
+.footer .copyright{
+    display: none;
+}
+
+.social .social-button a{
+    padding: 0 1.2rem;
+}
+.container h1{
+    padding-top:2.9rem;
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+.container p{
+    /* margin-top: rem; */
+    font-size:0.7rem;
+    /* word-spacing: 0.2rem; */
+    font-family: 'sans-sarif'
+}
+
+.mirusam-con {
+    margin-top: 0;
+    /* width: 100%; */
+    height: 60vh;
+   
+  }
+
+.main {
+    /* display: none; */
+    margin-top: 0;
+  }
+  
+#mirusam{
+    margin-top:0;
+  
+}
+}

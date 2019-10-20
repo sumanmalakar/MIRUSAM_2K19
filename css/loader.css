@@ -1,0 +1,109 @@
+
+/* for loading screen , we create separete file... */
+.loader{
+    width:100%;
+    height: 100vh;
+    background: #000;
+}
+video{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.mirusam{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align:center;
+    color:#fff;
+    font-size:5em;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bolder;
+    /* font-family: sans-serif; */
+    letter-spacing: 0.5em;
+  
+
+}
+.mirusam .fonts{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+
+ 
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter:blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter:blur(0px);
+    }
+}
+.mirusam .fonts:nth-child(1)
+{
+    animation-delay: 1s;
+    color:#4cd137
+}
+.mirusam .fonts:nth-child(2)
+{
+    animation-delay: 1.5s;
+    color:#4cd137
+}
+.mirusam .fonts:nth-child(3)
+{
+    animation-delay: 1.75s;
+    color:#778ca3
+}
+.mirusam .fonts:nth-child(4)
+{
+    animation-delay: 2s;
+    color:#778ca3
+}
+.mirusam .fonts:nth-child(5)
+{
+    animation-delay: 2.5s;
+    color:#ff4d4d;
+}
+.fonts:nth-child(6)
+{
+    animation-delay: 2.75s;
+    color:#ff4d4d;
+}.mirusam .fonts:nth-child(7)
+{
+    animation-delay: 3s;
+    color:#ff9f1a;
+}
+.mirusam .fonts:nth-child(8)
+{
+    animation-delay: 3.5s;
+    color:#a55eea;
+}
+ .mirusam .fonts:nth-child(9)
+{
+    animation-delay: 3.75s;
+    color:#26de81;
+}
+.mirusam .fonts:nth-child(10)
+{
+    animation-delay: 4.5s;
+    color:#26de81;
+}
+.mirusam .fonts:nth-child(11)
+{
+    animation-delay: 4.75s;
+    color:#a55eea;
+}
+.mirusam .fonts:nth-child(12)
+{
+    animation-delay: 5.5s;
+    color:#a55eea;
+}

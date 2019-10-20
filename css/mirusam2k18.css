@@ -1,0 +1,48 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+    /* opacity: 0.8; */
+  }
+
+  .con1 {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 100vh;
+    /* background: blueviolet; */
+    /* opacity: 1; */
+  }
+  .main {
+    display: none;
+    /* margin-top: 1rem; */
+  }
+
+
+  /* navigation */
+
+  
+
+#mirusam{
+  margin-top:0;
+}
+.nav-bar{
+  width:100%;
+  position:sticky; 
+  top:0px;
+  z-index: 200;
+}
+
+.nav-link{
+  color:#fff  !important;
+}
+.nav-link:hover{
+  color:white;
+  /* background:#2196F3; */
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+.nav-bar.fa-bars{
+  font-size:45px;
+  color:white;
+}
