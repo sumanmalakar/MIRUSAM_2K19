@@ -95,12 +95,12 @@ letter-spacing:0.5em;}
   
 }
 
-#mirusam{
-    margin-top:3.75rem;
+.navigation{
+    margin-top:1.8rem;
 }
-.nav-bar{
+/* .nav-bar{
     margin-top:2.75rem;
-}
+} */
 
 .con1 .r{
     margin-top:2rem;
@@ -161,6 +161,11 @@ letter-spacing: 0.3em;
     animation-delay: 4s;
     color:#a55eea;
 }
+
+.navigation{
+    margin-top:2.5rem;
+}
+
 .con2 .galary{
     padding-top:20px;
     display: grid;
