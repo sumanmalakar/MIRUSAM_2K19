@@ -116,12 +116,12 @@
     // social media
 
     
-    window.sr = ScrollReveal();
-    sr.reveal('.i',{
-      duration:2500,
-      origin:'bottom',
-      distance:'300px'
-    });
+    // window.sr = ScrollReveal();
+    // sr.reveal('.i',{
+    //   duration:2500,
+    //   origin:'bottom',
+    //   distance:'300px'
+    // });
 
 
     // team section
