@@ -7,7 +7,7 @@ letter-spacing:0.5em;}
 /* top css */
 #header{
     
-    min-height:calc(100vh - 25px);
+    min-height:calc(100vh - 35);
 }
 
 .showcase-top{
@@ -67,7 +67,7 @@ letter-spacing:0.5em;}
 }
 
 .contact .footer {
-    height: 25px;
+    height: 35px;
     margin-top:1rem;
    
 }
