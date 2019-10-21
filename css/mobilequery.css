@@ -52,8 +52,8 @@ letter-spacing:0.5em;}
     font-weight: bolder;
 }
 .con1 .container p{
-    margin-top: 1rem;
-    font-size:0.8rem;
+    padding-top: 1.5rem;
+    font-size:2.5rem;
     /* word-spacing: 0.2rem; */
     font-family: 'sans-sarif'
 }
@@ -201,7 +201,7 @@ letter-spacing: 0.3em;
 }
 .con1 .container p{
     padding-top: 10px;
-    font-size:0.7rem;
+    font-size:0.6rem;
     /* word-spacing: 0.2rem; */
     font-family: 'sans-sarif'
 }
