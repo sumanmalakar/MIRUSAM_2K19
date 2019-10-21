@@ -96,6 +96,9 @@ letter-spacing:0.5em;}
 }
 
 #mirusam{
+    margin-top:3.75rem;
+}
+.nav-bar{
     margin-top:2.75rem;
 }
 
@@ -130,11 +133,7 @@ letter-spacing:0.5em;}
     /* display: none; */
     margin-top: 0;
   }
-  
-#mirusam{
-    margin-top:0;
-  
-}
+
 }
     
 @media screen and (max-width: 500px){
