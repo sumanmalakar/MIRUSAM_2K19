@@ -118,9 +118,9 @@
     
     window.sr = ScrollReveal();
     sr.reveal('.i',{
-      duration:2500,
+      duration:1500,
       origin:'bottom',
-      distance:'300px'
+      distance:'100px'
     });
 
 
