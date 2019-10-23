@@ -20,7 +20,7 @@ body{
 .main{
     /* opacity: 0; */
     /* display: none; */
-   color:#fff;
+   /* color:#fff; */
     /* transition: opacity 4s ease-in; */
 }
 
@@ -183,6 +183,7 @@ body{
     width:100%;
     height:100vh;
     overflow: hidden;
+    margin-top: 0;
     background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
 }
 .con1 .container{
