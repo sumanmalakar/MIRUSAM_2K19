@@ -1,10 +1,10 @@
 
 body{
 
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin:0;
     padding:0;
-    /* overflow: hidden; */
+    overflow-x: hidden;
     /* background: #000; */
     /* display: flex;
     align-items: center;
@@ -189,11 +189,11 @@ body{
 .con1 .container{
     text-align:center;
 }
-.container h1{
+.con1 .container h1{
     padding-top:5rem;
     font-size:2rem;
 }
-.container p{
+.con1 .container p{
     padding-top: 2rem;
     font-size:1rem;
     word-spacing: 0.2rem;
@@ -290,6 +290,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    overflow: hidden;
    
 }
 .contact .footer p {
