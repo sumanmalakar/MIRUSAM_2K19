@@ -32,13 +32,13 @@ letter-spacing:0.5em;}
 }
    
 .mirusam-box{
-    width: 200px;
+    /* width: 200px; */
 }
 .mirusam-box img{
  width:180px;
 }
 .mirusam-box h1{
-    font-size:1.5rem;
+    font-size:1.2rem;
     color:white;
     margin-top:0.5px;
 
