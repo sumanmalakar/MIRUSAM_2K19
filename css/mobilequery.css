@@ -17,7 +17,7 @@ letter-spacing:0.5em;}
     padding:2px;
 }
 .showcase-top p{
-    font-size:0.7em;
+    font-size:0.8em;
     font-family: 'sans-sarif';
 }
 .ggu-logo{
@@ -142,14 +142,14 @@ letter-spacing:0.5em;}
 @media screen and (max-width: 500px){
     
     .showcase-top p{
-        font-size:0.5em;
+        font-size:0.6em;
         font-family: 'sans-sarif';
     }
     .register a{
-        font-size:0.7rem;
+        font-size:0.8rem;
     }
     .mirusam-box h1{
-        font-size:1rem;
+        font-size:1.2rem;
         color:white;
         margin-top:10px;
     }
