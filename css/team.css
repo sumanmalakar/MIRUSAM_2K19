@@ -45,7 +45,7 @@ background-size: cover; */
 .showcase-top{
     display: flex;
     position: absolute;
-    top: 5px;
+    top: 3px;
     left:2px;
     justify-content: flex-start;
     align-items: center;
