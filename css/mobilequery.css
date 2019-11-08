@@ -38,7 +38,7 @@ letter-spacing:0.5em;}
  width:180px;
 }
 .mirusam-box h1{
-    font-size:1.2rem;
+    font-size:1.1rem;
     color:white;
     margin-top:0.5px;
 
@@ -140,6 +140,39 @@ letter-spacing:0.5em;}
 }
     
 @media screen and (max-width: 500px){
+    
+    .showcase-top p{
+        font-size:0.5em;
+        font-family: 'sans-sarif';
+    }
+    .register a{
+        font-size:0.7rem;
+    }
+    .mirusam-box h1{
+        font-size:1rem;
+        color:white;
+        margin-top:10px;
+    }
+    .mirusam-box img{
+        width:130px;
+       }
+
+       
+.scroll-btn{
+    position: absolute;
+    top:89%;
+    left:50%;
+    transform: translate(-85%,-50%);
+}
+       .scroll-btn .btn-line{
+        display:block;
+        width:15px;
+        height: 15px;
+    }
+    .mirusam-box h1{
+        padding-top:10px;
+    }
+
 .mirusam{
  font-size:1.4em;
 letter-spacing: 0.3em;
