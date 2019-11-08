@@ -51,7 +51,7 @@ letter-spacing:0.5em;}
 }
 .con1 .container p{
     padding-top: 1.5rem;
-    font-size:1.75rem;
+    font-size:0.75rem;
     /* word-spacing: 0.2rem; */
     font-family: 'sans-sarif'
 }
@@ -72,7 +72,7 @@ letter-spacing:0.5em;}
 .footer p {
    
     padding: 8px;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bolder;
     word-spacing: 0;
   
@@ -160,6 +160,12 @@ letter-spacing:0.5em;}
     font-size: 0.9em;
 }
 
+.contact .footer .back-to-top{
+    display:none;
+}
+.footer .copyright{
+    display: none;
+}
 
 }
 
@@ -240,8 +246,8 @@ letter-spacing: 0.3em;
 .contact .footer p {
    
     padding: 8px;
-    font-size: 15px;
-    font-weight: lighter;
+    font-size: 10px;
+    font-weight: bolder;
     word-spacing: 0;
   
 }
