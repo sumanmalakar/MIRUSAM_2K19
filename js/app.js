@@ -96,19 +96,10 @@
     });
 
     // finally footer section...
-
-    // window.sr = ScrollReveal();
-    // sr.reveal('.contact',{
-    //   duration:2000,
-    //   origin:'bottom',
-    //   distance:'300px',
-    //   viewFactor:0.2
-    // });
-
     window.sr = ScrollReveal();
     sr.reveal('.footer',{
       duration:2500,
-      origin:'top',
+      origin:'bottom',
       distance:'300px'
     });
 

@@ -23,8 +23,8 @@ body{
 #header{
     width:100%;
     height:100vh;
-    overflow: hidden;
-    min-height:calc(100vh - 55px);
+    overflow-x: hidden;
+    min-height:calc(100vh - 40px);
   
 }
 #particles-js{
@@ -178,13 +178,15 @@ body{
 
 .con1{
     width:100%;
-    height:100vh;
+    /* height:95vh; */
     overflow: hidden;
     margin-top: 0;
+    
     background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
 }
 .con1 .container{
     text-align:center;
+    height:96vh;
 }
 .con1 .container h1{
     padding-top:5rem;
@@ -203,6 +205,8 @@ body{
 .con2{
     width:100%;
     overflow: hidden;
+    padding-top:10px;
+    padding-bottom: 20px;;
     /* height: 100vh; */
     height:auto;
     background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
@@ -280,7 +284,7 @@ body{
  /* margin-top:2rem; */
 }
 .contact .footer {
-    height: 55px;
+    height: 40px;
     margin-top:1rem;
     display: flex;
     text-align: center;
@@ -292,10 +296,10 @@ body{
 }
 .contact .footer p {
     vertical-align: middle;
-    color: grey;
+    /* color: grey; */
     padding: 1em;
-    font-size: 1.2em;
-    font-weight: lighter;
+    font-size: 1.5em;
+    /* font-weight: lighter; */
     word-spacing: 0.1rem;
     font-family: 'sans-sarif';
     color:#fff;
@@ -303,6 +307,7 @@ body{
 
 .contact .footer p a {
     text-decoration: none;
+    font-size:1.3rem;
 }
 
 .contact .footer p i {
@@ -329,59 +334,3 @@ body{
 	}
 }
 
-         /* social media */
-
-.social{
-    /* width:100%;
-    height: 50vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-    /* background:yellow; */
-    /* margin-top:5rem; */
-}
-.social .social-button a{
-    display: inline-flex;
-    text-decoration: none;
-    font-size: 17px;
-    width: 35px;
-    height: 35px;
-    color: #fff;
-    justify-content: center;
-    /* background: red; */
-    align-items: center;
-    position: relative;
-    /* margin: 0 8px; */
-    padding: 0 1.5rem;
-    transition: 0.3s ease-in;
-}
-
-.social .social-button a::before{
-    content: "";
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    /* background: linear-gradient(45deg,#00d2d3,#576574); */
-    /* background: linear-gradient(45deg,#feca57,#ff9f43); */
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-
-    border-radius: 50%;
-    z-index:-1;
-    transition: 0.3s ease-in;
-}
-.social .social-button a:hover::before{
-    transform: scale(0);
-    color:#ffffff;
-
-}
-.social .social-button a i{
-    transition: 0.3s ease-in;
-}
-.social .social-button a:hover i{
-    background: linear-gradient(45deg,#00d2d3,#576574);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: scale(2.2); 
-    
-}
