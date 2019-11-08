@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) and (max-width: 1170px){
+@media screen and (max-width: 768px){
 
 .mirusam{
 font-size: 2.5em;
@@ -30,10 +30,7 @@ letter-spacing:0.5em;}
     top:3rem;
     right:5px;
 }
-   
-.mirusam-box{
-    /* width: 200px; */
-}
+ 
 .mirusam-box img{
  width:180px;
 }
@@ -102,9 +99,7 @@ letter-spacing:0.5em;}
 .navigation{
     margin-top:1.8rem;
 }
-/* .nav-bar{
-    margin-top:2.75rem;
-} */
+
 
 .con1 .r{
     margin-top:2rem;
@@ -146,7 +141,7 @@ letter-spacing:0.5em;}
 #mirusam-nav{
     margin-top:3.2rem;
 }
-    
+}
 @media screen and (max-width:400px){
     
     .showcase-top p{
