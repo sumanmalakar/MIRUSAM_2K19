@@ -95,13 +95,13 @@
      
     });
 
-    // finally footer section...
-    window.sr = ScrollReveal();
-    sr.reveal('.footer',{
-      duration:2500,
-      origin:'bottom',
-      distance:'300px'
-    });
+    // // finally footer section...
+    // window.sr = ScrollReveal();
+    // sr.reveal('.footer',{
+    //   duration:2500,
+    //   origin:'bottom',
+    //   distance:'300px'
+    // });
 
 
     // social media
