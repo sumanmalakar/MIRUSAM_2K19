@@ -193,10 +193,11 @@ body{
     font-size:2rem;
 }
 .con1 .container p{
-    padding-top: 2rem;
-    font-size:1rem;
-    word-spacing: 0.2rem;
-    font-family: 'sans-sarif'
+    padding-top: 2.5rem;
+    font-size:1.5rem;
+    word-spacing: 0.5rem;
+    font-family: 'sans-sarif';
+    font-weight: lighter;
 }
 
 
