@@ -49,6 +49,15 @@
 
     // About Mirusam section 
 
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.info-top',{
+      duration:2000,
+      origin:'top',
+      distance:'300px',
+     
+    });
     window.sr = ScrollReveal();
     sr.reveal('.info-left',{
       duration:2000,
@@ -62,6 +71,8 @@
       duration:2000,
       origin:'right',
       distance:'300px',
+      viewFactor:0.2
+     
      
     });
 

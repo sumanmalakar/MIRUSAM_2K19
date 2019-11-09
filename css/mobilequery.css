@@ -44,17 +44,27 @@ letter-spacing:0.5em;}
 .nav-bar{
     opacity:1;
 }
-.con1 .container h1{
+.con1 .con h1{
     margin-top:1.5rem;
     font-size:1.5rem;
     font-weight: bolder;
 }
-.con1 .container p{
-    padding-top: 1.5rem;
-    font-size:1.2rem;
-    word-spacing: 0.2rem;
+.con1 .con .row p{
+    padding-top: 4.51rem;
+    font-size:1.5em;
+    /* word-spacing: 0.1rem; */
     font-family: 'sans-sarif'
 }
+
+.con1 .con .row .para{
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top:1.2rem;
+}
+
+.con1 .con .im img{
+    display: none;}
+
 .con2 .galary{
     padding-top:20px;
     display: grid;
@@ -261,17 +271,24 @@ letter-spacing: 0.3em;
 .social .social-button a{
     padding: 0 1.2rem;
 }
-.con1 .container h1{
+.con1 .con .row h1{
 
     padding-top:35px;
     font-size:1.5rem;
     font-weight: bolder;
 }
-.con1 .container p{
-    padding-top: 10px;
-    font-size:0.5rem;
-    /* word-spacing: 0.2rem; */
-    font-family: 'sans-sarif'
+
+.con1 .con .im{
+    display: none;
+   
+}
+
+.con1 .con .row p{
+    padding-top: 1em;
+  
+    font-size:0.5em;
+    /* word-spacing: 0.1rem; */
+    font-family: 'sans-sarif';
 }
 
 .mirusam-con {
@@ -297,9 +314,9 @@ letter-spacing: 0.3em;
 
 #mirusam-nav{
     margin-top:2.5rem;
-}
-}
 
+}
+}
 @media screen and (max-width:500px){
      
     .showcase-top p{
@@ -307,12 +324,29 @@ letter-spacing: 0.3em;
         font-family: 'sans-sarif';
     }
 
-    .con1 .container p{
-        padding-top: 10px;
-        font-size:0.6rem;
-        /* word-spacing: 0.2rem; */
-        font-family: 'sans-sarif'
+    .con1 .con .h1{
+        margin-top:1rem;
+        font-size:1.5rem;
+        font-weight: bolder;
     }
+    .con1 .con .row .p{
+        padding-top: 0.21em;
+        font-size:0.77em;
+        /* word-spacing: 0.2rem; */
+        font-family: 'sans-sarif';
+    }
+    
+.con1 .con .row .para{
+    font-size: 1.6em;
+    font-weight: bolder;
+    padding-top:0.7rem;
+}
+    
+    .con1 .con .im{
+        display: none;
+       
+    }
+    
     .register a{
         font-size:0.9rem;
     }
@@ -364,10 +398,67 @@ letter-spacing: 0.3em;
    /* font-size:0.2em; */
 }
 
-.con1 .container p{
-    padding-top: 1.5rem;
-    font-size:1.4rem;
+.con1 .container .row p{
+    padding-top: 1em;
+    font-size:0.7em;
     word-spacing: 0.2rem;
-    font-family: 'sans-sarif'
+    font-family: 'sans-sarif';
 }
+
+.con1 .con .row .para{
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-top:0.1rem;
+    /* display: none; */
+}
+
+.con1 .con .im{
+    margin-top:1em;
+
+}
+
+.con1 .con .im img{
+    width:100%;
+    height: 45vh;
+    /* margin-top:0.1rem; */
+
+}
+}
+@media screen and (max-width: 992px){
+    
+.con1 .container .row p{
+    padding-top: 0.1rem;
+    font-size:0.8rem;
+    word-spacing: 0.2rem;
+    font-family: 'sans-sarif';
+}
+
+
+.con1 .con .im img{
+    width:100%;
+    height: 40vh;
+    padding-top:1.5rem;
+
+}
+    
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+
+    
+.con1 .container .row p{
+    padding-top: 1em;
+    font-size:0.5em;
+    /* word-spacing: 0.2rem; */
+    font-family: 'sans-sarif';
+}
+
+.con1 .con .row .para{
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-top:0.1rem;
+    /* display: none; */
+}
+
+
 }
