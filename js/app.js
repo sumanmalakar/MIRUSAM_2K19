@@ -139,18 +139,18 @@
 
     
     window.sr = ScrollReveal();
-    sr.reveal('.right',{
+    sr.reveal('.top',{
       duration:2000,
-      origin:'right',
+      origin:'top',
       distance:'300px'
     });
 
 
     
     window.sr = ScrollReveal();
-    sr.reveal('.right',{
+    sr.reveal('.top',{
       duration:2000,
-      origin:'right',
+      origin:'top',
       distance:'300px'
     });
 
