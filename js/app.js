@@ -155,7 +155,13 @@
     });
 
 
- 
+    window.sr = ScrollReveal();
+    sr.reveal('.bto',{
+      duration:2000,
+      origin:'bottom',
+      distance:'300px',
+      viewFactor:0.2
+    });
     
     window.sr = ScrollReveal();
     sr.reveal('.b',{

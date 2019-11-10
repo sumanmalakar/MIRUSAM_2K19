@@ -103,6 +103,7 @@ body{
     height: auto;
     padding-top:3rem;
     margin-bottom: 2rem;
+    overflow: hidden;
     /* background: #54a0ff; */
   
 }
@@ -352,8 +353,11 @@ body{
 }
 .flip-card-backside{
     /* background-color:rgb(9, 15, 17); */
-    background:#636e72;
-    color:white;
+    /* background:#F8EFBA; */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+
+    color:black;
+    font-weight: bold;
     transform:rotateY(180deg); 
     border-radius: 50%;
     border:1px solid yellow;
@@ -367,27 +371,36 @@ body{
 }
 .flip-card-backside h1{
     padding-top:2rem;
-    font-size:1.5em;
+    font-size:1em;
 }
 .flip-card-backside .h1{
-    padding-top:2.5rem;
+    /* padding-top:2.5rem; */
     font-size:1.4em
 }
 .flip-card-backside .p1{
 
-    padding-top:2.5rem;
+    padding-top:4.5rem;
+    font-size:1em;
 
 }
 .social{
-    padding-top:1.5rem;
+    /* padding-top:1.5rem; */
 }
 .flip-card-backside .p2{
-    font-size:1.5em;
+    font-size:1em;
+    padding-top:0.3rem
+}
+.flip-card-backside P{
+    padding-top:2rem;
 }
 .coordinator{
     padding-top: 1rem;
     color:#fff;
     padding-bottom: 1rem;
+}
+.coordinator h1{
+    font-size:1.5em;
+
 }
 
 /* team */
