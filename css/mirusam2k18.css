@@ -1,23 +1,55 @@
 body {
-
     margin: 0;
     padding: 0;
-    background: black;
-    overflow: hidden;
+    /* background: black; */
+    /* background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
+    /* overflow: hidden; */
+    /* background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%); */
+    /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
     /* opacity: 0.8; */
   }
 
-  .con1 {
-    margin-top: 0.5rem;
+  .conx1 {
+    margin-top: 1.5rem;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    /* border-radius: 10%; */
     /* background: blueviolet; */
     /* opacity: 1; */
   }
   .main {
-    display: none;
+    /* display: none; */
     /* margin-top: 1rem; */
   }
+
+  img{
+    border-radius: 1%;
+  }
+
+  
+
+.showcase-top{
+  display: flex;
+  position: absolute;
+  top: 3px;
+  left:2px;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.showcase-top{
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Hepta Slab', serif;
+}
+.showcase-top p{
+  font-size: 1em;
+}
+.ggu-logo{
+  max-height: 5em;
+  object-fit: cover;
+}
 
 
   /* navigation */
@@ -25,7 +57,7 @@ body {
   
 
 #mirusam{
-  /* margin-top:3.5rem; */
+  margin-top:5.5rem;
 }
 .nav-bar{
   width:100%;
@@ -46,3 +78,46 @@ body {
   font-size:45px;
   color:white;
 }
+
+.drop{
+  /* background-color:#9C27B0; */
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.dropdown-item{
+  color:white;
+}
+.dropdown-item:hover{
+  /* background-color:black; */
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  color:white;
+}
+
+
+/* typed js */
+.top{
+
+  width: 100%;
+  height: 5vh;
+}
+
+.top .type{
+/* color:#fff; */
+position: sticky;
+width: 100%;
+font-size:2em;
+font-family: sans-serif;
+/* color:#ffffff; */
+color: #f6e58d;
+padding-top:10px;
+padding-bottom: 10px;
+/* background: #020f75; */
+text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+/* .con2{
+  margin-top: 1rem;
+  width:100%;
+  height: 100px;
+  background: #2575fc;
+} */

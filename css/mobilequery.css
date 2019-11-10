@@ -145,7 +145,7 @@ letter-spacing:0.5em;}
   }
     
 #mirusam{
-    margin-top:0;
+    padding-top:0.1rem;
 
 }
 
@@ -179,8 +179,49 @@ letter-spacing:0.5em;}
 
 }
 
+.flip-card{
+    margin-left:0px;
+}
+.flip-card-inner{
+    width: 230px;
+    height: 230px;
+}
+.flip-card-frontside img{
+    width:230px;
+    height: 230px;
+}
+.flip-card-backside h1{
+    font-size:1em;
+}
+.flip-card-backside .h1{
+    font-size:1em;
+}
+.flip-card-backside .p1{
+    padding-top:1.5rem;
+}
+.social{
+    padding-top:0.1rem;
+}
+.coordinator{
+    padding-top:0.5rem;
+    font-size:1em;
+}
 
+.conx1{
+    padding-top:0.1rem;
+}
+.top .type{
+    font-size:1em;
+    padding-top:1.2rem;
+}
+.carousel-inner .carousel-item img{
+    width:100%;
+    height:400px;
+}
 
+.i{
+    height:300px;
+}
 @media screen and (max-width:400px){
     
     .showcase-top p{
@@ -306,19 +347,41 @@ letter-spacing: 0.3em;
     /* display: none; */
     margin-top: 0;
   }
+
+  .carousel-inner .carousel-item img{
+    width:100%;
+    height:300px;
+}
   
 #mirusam{
-    margin-top:0;
+    padding-top:0.5rem;
   
 }
-
+.conx1{
+    padding-top:2rem;
+}
+.top .type{
+    font-size:0.9em;
+    padding-top:1.2rem;
+}
+.i{
+    height: 300px;
+}
 #mirusam-nav{
     margin-top:2.5rem;
 
 }
+
+.flip-card{
+    margin-left:0px;
+}
 }
 @media screen and (max-width:500px){
      
+    
+.flip-card{
+    margin-left:0px;
+}
     .showcase-top p{
         font-size:0.6em;
         font-family: 'sans-sarif';

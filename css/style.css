@@ -78,9 +78,9 @@ body{
  
 }
 .mirusam-box img{
-    width:200px;
-    border-radius: 50%;
-    border:3px solid yellowgreen;
+    width:250px;
+    /* border-radius: 50%; */
+    /* border:3px solid yellowgreen; */
 }
 .mirusam-box h1{
     position: fixed;
