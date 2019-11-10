@@ -108,6 +108,7 @@ letter-spacing:0.5em;}
   
 }
 
+
 .navigation{
     margin-top:1.8rem;
 }
@@ -221,6 +222,14 @@ letter-spacing:0.5em;}
 
 .i{
     height:300px;
+}
+
+
+.con1 .con .row .para{
+    font-size: 1em;
+    font-weight: bolder;
+    padding-top:1rem;
+    padding-left:200px;
 }
 @media screen and (max-width:400px){
     
@@ -375,9 +384,23 @@ letter-spacing: 0.3em;
 .flip-card{
     margin-left:0px;
 }
+
+.con1 .con .row .para{
+    font-size: 1em;
+    font-weight: bolder;
+    padding-top:1rem;
+    padding-left:200px;
+}
 }
 @media screen and (max-width:500px){
      
+    
+.con1 .con .row .para{
+    font-size: 1em;
+    font-weight: bolder;
+    padding-top:1rem;
+    padding-left:200px;
+}
     
 .flip-card{
     margin-left:0px;
