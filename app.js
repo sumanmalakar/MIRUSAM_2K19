@@ -1,133 +1,190 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
 
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
+// header
 
-/* Otherwise just put the config content (json): */
+    window.sr = ScrollReveal();
+    sr.reveal('.showcase-top',{
+      duration:2000,
+      origin:'top',
+      distance:'400px'
+    });
 
-particlesJS('particles-js',
+    window.sr = ScrollReveal();
+    sr.reveal('.register',{
+      duration:2000,
+      origin:'right',
+      distance:'400px'
+    });
+
+    window.sr = ScrollReveal();
+    sr.reveal('.mirusam-box',{
+      duration:2000,
+      origin:'bottom',
+      distance:'400px'
+    });
+
+    window.sr = ScrollReveal();
+    sr.reveal( '.scroll-btn',{
+      duration:2000,
+      origin:'bottom',
+      distance:'300px'
+    });
+
+    // Nav-bar
+
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar-brand',{
+      duration:1000,
+      origin:'left',
+      distance:'500px',
+     
+    });
+
+    // window.sr = ScrollReveal();
+    // sr.reveal('.nav-item',{
+    //   duration:1000,
+    //   origin:'right',
+    //   distance:'200px',
+     
+    // });
+
+    // About Mirusam section 
+
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.info-top',{
+      duration:2000,
+      origin:'top',
+      distance:'300px',
+     
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.info-left',{
+      duration:2000,
+      origin:'left',
+      distance:'300px',
+     
+    });
+
+    window.sr = ScrollReveal();
+    sr.reveal('.info-right',{
+      duration:2000,
+      origin:'right',
+      distance:'300px',
+      viewFactor:0.2
+     
+     
+    });
+
+    // Galary 2k!9 section
+
+    window.sr = ScrollReveal();
+    sr.reveal('.img-top',{
+      duration:2000,
+      origin:'top',
+      distance:'300px',
+      viewFactor:0.2
+     
+    });
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.img-left',{
+      duration:2000,
+      origin:'left',
+      distance:'300px',
+      viewFactor:0.2
+     
+    });
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.img-bottom',{
+      duration:2000,
+      origin:'bottom',
+      distance:'300px',
+      viewFactor:0.2
+     
+    });
+
+    // // finally footer section...
+    // window.sr = ScrollReveal();
+    // sr.reveal('.footer',{
+    //   duration:2500,
+    //   origin:'bottom',
+    //   distance:'300px'
+    // });
+
+
+    // social media
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.i',{
+      duration:1500,
+      origin:'bottom',
+      distance:'100px'
+    });
+
+
+    // team section
+
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.left',{
+      duration:2000,
+      origin:'left',
+      distance:'300px'
+    });
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.top',{
+      duration:2000,
+      origin:'top',
+      distance:'300px'
+    });
+
+
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.top',{
+      duration:2000,
+      origin:'top',
+      distance:'300px'
+    });
+
+
+    window.sr = ScrollReveal();
+    sr.reveal('.bto',{
+      duration:2000,
+      origin:'bottom',
+      distance:'300px',
+      viewFactor:0.2
+    });
+    
+    window.sr = ScrollReveal();
+    sr.reveal('.b',{
+      duration:1000,
+      origin:'bottom',
+      distance:'300px'
+    });
   
-  {
-    "particles": {
-      "number": {
-        "value": 80,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": ["#6c5ce7","#f1c40f","#e74c3c","#bdc3c7","#8e44ad"]
-      },
-      "shape": {
-        "type": ["circle","triangle","star","polygon"],
-        "stroke": {
-          "width": 0,
-          "color": "#000000"
-        },
-        "polygon": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
-      },
-      "opacity": {
-        "value": 0.5,
-        "random": false,
-        "anim": {
-          "enable": false,
-          "speed": 1,
-          "opacity_min": 0.1,
-          "sync": false
-        }
-      },
-      "size": {
-        "value": 7,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 40,
-          "size_min": 0.1,
-          "sync": false
-        }
-      },
-      "line_linked": {
-        "enable": false,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 20,
-        "direction": "none",
-        "random": false,
-        "straight": false,
-        "out_mode": "out",
-        "attract": {
-          "enable": false,
-          "rotateX": 600,
-          "rotateY": 1200
-        }
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": false,
-          "mode": "repulse"
-        },
-        "onclick": {
-          "enable": true,
-          "mode": "push"
-        },
-        "resize": true
-      },
-      "modes": {
-        "grab": {
-          "distance": 400,
-          "line_linked": {
-            "opacity": 1
-          }
-        },
-        "bubble": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
-          "speed": 3
-        },
-        "repulse": {
-          "distance": 200
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
-        }
-      }
-    },
-    "retina_detect": true,
-    "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
-    }
-  }
 
-);
+    // smoth-scroll
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);  //change this number here to modify how long the scroll takes
+        return false;
+      }
+    }
+  });
+});
+
